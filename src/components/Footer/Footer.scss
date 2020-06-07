@@ -1,0 +1,44 @@
+#footer-wrapper {
+    padding: 60px;
+}
+
+#footer-contact-wrapper {
+    font-size: 38px;
+    margin-bottom: 25px;
+    a {
+        padding-left: 15px;
+        color: #4629c6;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover {
+            color: rgba(0,0,0,0.5);
+        }
+    }
+}
+
+#footer-social-links {
+    font-size: 16px;
+    font-weight: 400;
+    a {
+        margin-right: 30px;
+        cursor: pointer;
+        display: inline-block;
+        &:last-of-type {
+            margin-right: 0px;
+        }
+        &:hover {
+            color: #4629c6; 
+            &:after {
+                width: 100%;
+            }
+        }
+        &:after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #4629c6;
+            transition: width .3s;
+        }
+    }
+}

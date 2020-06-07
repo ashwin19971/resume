@@ -1,12 +1,12 @@
 #header-wrapper {
   max-width: 1440px;
-  padding: 30px 50px;
+  padding: 30px 60px;
   img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     display: inline-block;
-    background-color: #7deff3;
+    background-color: #4629c6;
   }
 }
 
@@ -14,11 +14,10 @@
   display: inline-block;
   float: right;
   font-size: 18px;
-  padding-top: 50px;
+  padding-top: 65px;
   span {
     padding-right: 60px;
     cursor: pointer;
-    transition: color .25s ease;
     i {
       margin-right: 5px;
     }
@@ -29,14 +28,12 @@
 }
 
 #header-contact-btn {
-  transition: color .25s ease;
   padding-right: 40px;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  color: rgba(#000000, 0.5);
   &:hover {
     color: #4629c6;
   }
-}
-
-#header-contact-btn {
-
 }

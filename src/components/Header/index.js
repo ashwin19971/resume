@@ -1,16 +1,17 @@
 import React from 'react';
 
 import './Header.scss';
+import resume from "../../assets/files/Resume.pdf";
 
 const Header = () => (
   <div id='header-wrapper'>
     <img />
     <div id='header-right-wrapper'>
-      <span>
-        <i className='icon-download-resume'/>
+      <span onClick={() => window.open(resume)}>
+        <i className='icon-download-resume' />
         <a>Resume</a>
       </span>
-      <a id="header-contact-btn">Contact</a>
+      <a id="header-contact-btn" href="#footer-wrapper">Contact</a>
     </div>
   </div>
 );
