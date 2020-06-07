@@ -1,0 +1,42 @@
+#header-wrapper {
+  max-width: 1440px;
+  padding: 30px 50px;
+  img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-color: #7deff3;
+  }
+}
+
+#header-right-wrapper {
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+  padding-top: 50px;
+  span {
+    padding-right: 60px;
+    cursor: pointer;
+    transition: color .25s ease;
+    i {
+      margin-right: 5px;
+    }
+    &:hover {
+      color: #4629c6;
+    }
+  }
+}
+
+#header-contact-btn {
+  transition: color .25s ease;
+  padding-right: 40px;
+  cursor: pointer;
+  &:hover {
+    color: #4629c6;
+  }
+}
+
+#header-contact-btn {
+
+}
