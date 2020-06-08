@@ -23,6 +23,8 @@
         margin-right: 30px;
         cursor: pointer;
         display: inline-block;
+        text-decoration: none;
+        color: rgba(0,0,0,0.5);
         &:last-of-type {
             margin-right: 0px;
         }

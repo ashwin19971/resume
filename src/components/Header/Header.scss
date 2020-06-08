@@ -3,23 +3,22 @@
   padding: 30px 60px;
   img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     display: inline-block;
-    background-color: #4629c6;
   }
 }
 
 #header-right-wrapper {
   display: inline-block;
   float: right;
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 65px;
   span {
     padding-right: 60px;
     cursor: pointer;
     i {
-      margin-right: 5px;
+      font-size: 24px;
     }
     &:hover {
       color: #4629c6;
