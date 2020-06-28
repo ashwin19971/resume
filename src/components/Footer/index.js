@@ -7,9 +7,9 @@ const Footer = () => (
   <div id="footer-wrapper">
     <div id="footer-contact-wrapper">
       Have something related to me?
-       <a href="mailto:ashwingiri1997@gmail.com">Let's talk.</a>
+       <a href="mailto:ashwingiri1997@gmail.com">Let's talk</a>
     </div>
-    <div id="footer-social-links">
+    <div id="footer-links">
       <a href={GITHUB_URL} target="_blank">Github</a>
       <a href={LINKEDIN_URL} target="_blank" rel="nofollow">LinkedIn</a>
       <a href={HACKERRANK_URL} target="_blank">HackerRank</a>
