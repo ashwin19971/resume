@@ -1,0 +1,63 @@
+#about-me-wrapper {
+    padding: 60px;
+    display: block;
+    .about-me-slide {
+        display: inline-block;
+        width: calc(16.66% - 16.66px);
+        cursor: pointer;
+        min-height: 175px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        margin-right: 20px;
+        color: black;
+        transition: all 0.2s ease;
+        vertical-align: top;
+        box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        i {
+            display: inline-block;
+            min-height: 100px;
+            width: 100%;
+        }
+        &:last-of-type {
+            margin-right: 0px;
+        }
+        &:hover {
+            transform: scale(1.1);
+            background: none;
+            .view-btn {
+                transform: none;
+                font-size: 16px;
+            }
+        }
+    }
+    .title {
+        color: rgba(0, 0, 0, 0.5);
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .view-btn {
+        display: inline-block;
+        font-size: 14px;
+        &:hover{
+            color: #4629c6; 
+            &:after {
+                width: 100%;
+            }
+        }
+        &:after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 1px;
+            background: #4629c6;
+            transition: width .3s;
+        }
+    }
+}
+
+#about-slides-wrapper {
+    display: inline-block;
+    width: 100%;
+}
